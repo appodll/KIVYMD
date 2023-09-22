@@ -19,7 +19,7 @@ class IOS(MDApp):
                                         on_press = self.vurma)
 
         
-        self.button2 = MDRectangleFlatButton(text = '÷', _text_color = 'red',  md_bg_color =  (100/255,100/255,100/255,1),
+        self.button2 = MDRectangleFlatButton(text = '/', _text_color = 'red',  md_bg_color =  (100/255,100/255,100/255,1),
                                         pos_hint = {'center_x':0.66, 'center_y': 0.557},
                                         font_size = '30sp',theme_text_color = None,
                                         text_color = (1,1,1,1),
